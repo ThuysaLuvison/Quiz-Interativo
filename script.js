@@ -174,7 +174,7 @@ const resultadoE1 = document.getElementById("resultado");
 const timerE1 = document.getElementById("timer");
 
 function iniciarTimer() {
-    tempoRestante = 15;
+    tempoRestante = 30;
     timerE1.textContent = `⏳ ${tempoRestante}s`;
 
     timer = setInterval(() => {
