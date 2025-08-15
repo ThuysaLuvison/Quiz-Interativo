@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
+.quiz-container {
+    max-width: 500px;
+    margin: 80px auto;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+}
+
+#timer {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+#opcoes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px;
+    margin: 8px;
+    border: none;
+    border-radius: 6px;
+    background-color: #ff9800;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #e68900;
+     transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: none;
+}
+
+.resposta-certa {
+    background-color: #4caf50 !important;
+}
+
+.resposta-errada {
+    background-color: #f44336 !important;
+}
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    button {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
